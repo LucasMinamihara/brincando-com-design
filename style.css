@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.controle {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  position: relative;
+}
+
+.pause {
+  height: 1.7rem;
+  width: 1.7rem;
+  background-color: #ffff;
+  clip-path: polygon(0% 0%, 0 0, 100% 47%, 0% 100%);
+  position: absolute;
+  top: 36.5%;
+  left: 37%;
+}
+
+.select {
+  height: 1.7rem;
+  width: 1.7rem;
+  background-color: #ffff;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 51%, 0 51%);
+  position: absolute;
+  top: 38%;
+  left: 56%;
+}
+
+.juntandoParteDoControle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bola1 {
+  width: 10rem;
+  height: 10rem;
+  background-color: #ffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-40%, -50%);
+}
+
+.bola2 {
+  width: 10rem;
+  height: 10rem;
+  background-color: #ffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.botao {
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bola {
+  left: 80%;
+  background-color: red;
+}
+.xis {
+  background-color: blue;
+  top: 80%;
+}
+.triangulo {
+  background-color: green;
+  top: 20%;
+}
+
+.quadrado {
+  background-color: pink;
+  left: 20%;
+}
+
+.analogico1 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-color: #ffff;
+  position: absolute;
+  top: 70%;
+  left: 55%;
+}
+.analogico2 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-color: #ffff;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+
+.analogicoBola {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
